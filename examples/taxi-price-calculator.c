@@ -1,3 +1,13 @@
+
+/* 
+Write a program to calculate the taxi fare based on distance. Follow these constraints:
+    - For the first 2 km, the fare is ₹50.
+    - For every km after that, the fare is ₹20.
+    - After 5 km, the fare is ₹15 per km.
+    
+written by @pykinsu 
+
+*/
 #include <stdio.h>
 int main(){
     int dist;
