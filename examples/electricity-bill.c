@@ -1,3 +1,8 @@
+
+/*
+Write a C program to calculate the electricity bill using the following conditions: For the first 100 units → ₹6.50 per unit For units above 100 → ₹9.00 per unit Calculate the bill according to the meter reading.
+written by @pykinsu
+*/
 #include <stdio.h>
 
 int main() {
