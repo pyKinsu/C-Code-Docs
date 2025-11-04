@@ -1,3 +1,12 @@
+/*
+Write a Program in C to implement Traffic Light System:
+Take input light color (Red, Yellow, Green)
+Display corresponding action:
+Red → Stop Yellow, → Ready to Go, Green → Go
+
+
+written by @pykinsu
+*/
 
 #include <stdio.h>
 
