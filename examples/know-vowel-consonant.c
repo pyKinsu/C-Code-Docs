@@ -1,3 +1,9 @@
+
+/*
+Write a C program that takes a character as input and uses a switch statement to check whether it is a vowel (a, e, i, o, u) or a consonant
+written by @pykinsu
+*/
+
 #include <stdio.h>
 int main () {
   char letter;
