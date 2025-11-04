@@ -1,3 +1,8 @@
+/*
+Write a Program in C to show a number is even or old by ttaking input from user
+written by @pykinsu
+*/
+
 #include <stdio.h>
 
 int main()
