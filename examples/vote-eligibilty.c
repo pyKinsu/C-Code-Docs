@@ -1,3 +1,9 @@
+
+/* 
+Write a program to identify voting eligibility of and person
+written by @pykinsu 
+*/
+
 #include <stdio.h>
 
 int main() {
