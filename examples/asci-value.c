@@ -1,3 +1,8 @@
+/*
+Write a C program to take any character from the user and display its ASCII value on the screen.
+written by @pykinsu
+*/
+
 #include <stdio.h>
 
 int main() {
