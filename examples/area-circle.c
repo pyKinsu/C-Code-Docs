@@ -1,3 +1,8 @@
+/*
+Write a C program to calculate the area of a rectangle.
+written by @pykinsu
+*/
+
 #include <stdio.h>
 #define pi 3.14
 
