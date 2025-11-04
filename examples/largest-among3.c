@@ -1,3 +1,7 @@
+/*
+Write a C program to identify largest number among three numbers
+written by @pykinsu
+*/
 #include <stdio.h>
 
 int main()
