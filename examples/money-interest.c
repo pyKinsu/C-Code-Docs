@@ -1,3 +1,8 @@
+/*
+Write a C program to calculate simple interest.
+written by @pykinsu
+*/
+
 #include <stdio.h>
 
 int main() {
