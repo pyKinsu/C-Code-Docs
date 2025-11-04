@@ -1,3 +1,9 @@
+/* 
+Write a C program to take the details of a student (name, roll number, marks and grade) and display them on the screen.
+
+written by @pykinsu 
+*/
+
 #include <stdio.h>
 
 int main() {
