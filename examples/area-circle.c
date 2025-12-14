@@ -1,6 +1,6 @@
 /*
 Write a C program to calculate the area of a rectangle.
-written by @pykinsu
+written byy @pykinsu
 */
 
 #include <stdio.h>
