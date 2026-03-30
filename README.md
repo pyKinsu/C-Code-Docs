@@ -2,9 +2,7 @@
 
 **A beginner-friendly guide to the C programming language.**
 
-This repository covers C from the basics to practical programs, including both theory and examples.  
-It starts with fundamental concepts like the origin and importance of C, and gradually builds up to writing real programs.
-Each chapter includes both theory and examples, so you're never just reading — you're writing and running code too.
+This repository covers C from the basics to practical programs,Each chapter includes both theory and examples, so you're never just reading — you're writing and running code too.
 
 ---
 
