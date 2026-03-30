@@ -26,6 +26,8 @@ int main() {
 3. Paste the above code
 4. Save the file as `program.c`
 5. Click **Build and Run** (or press `F9`)
+   
+   [How to Run C Programs](./Inro/RUNNING_CODE.md)
 
 ---
 
