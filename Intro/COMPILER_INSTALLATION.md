@@ -1,148 +1,142 @@
-# Compiler Installation Guide (C / C++)
+# Compiler Installation Guide
 
-This guide will help you install **gcc and g++ compilers** on your system.  
-Choose your operating system below and follow the steps.
+This guide walks you through installing the GCC and G++ compilers on your system. Pick your operating system and follow the steps — it should take less than 10 minutes.
 
----
+**Jump to your OS:**
 
-## 📂 Jump to Section
+[ Windows](#windows) · [ Ubuntu / Linux](#ubuntu--linux) · [ macOS](#macos) · [ Android](#android)
 
--  Android Users: [Tap here to get a C/C++ compiler](https://play.google.com/store/search?q=C%20compiler&c=apps)
--  [For Windows](#1-the-procedure-to-install-c-and-c-in-windows-os)
--  [For Ubuntu/Linux](#2-the-procedure-to-install-gcc-and-g-compiler-in-ubuntu-linux-os)
--  [For macOS](#3-the-procedure-to-install-c-and-c-in-macos)
-  
-
-[For Installing Compiler Apps](./Intro/COMPILER_APPS.md)
+> Looking for a full IDE or editor instead? Check out the [Compiler Apps Guide](./COMPILER_APPS.md).
 
 ---
 
-## 1. The procedure to install C and C++ in Windows OS
+## Windows
 
-1. To follow the installation procedure, you need to be connected to the internet.
+We'll be installing **MinGW** — a Windows port of GCC that lets you compile C and C++ programs right from your machine.
 
-2. For Windows OS, we will install the MinGW compiler.
+> Make sure you're connected to the internet before starting.
 
-3. Go to: http://sourceforge.net/projects/mingw/files/Installer/
+### Step 1 — Download the installer
 
-4. Locate the executable file mingw-get-setup.exe.
+Go to the MinGW download page and grab the installer:
 
-5. Click on this .exe file.
+👉 http://sourceforge.net/projects/mingw/files/Installer/
 
-6. A dialog box will appear prompting you to either Run or Save the file.
+Look for `mingw-get-setup.exe` and download it.
 
-7. If you click on the Run button, the Installation Wizard will open.
+### Step 2 — Run the installer
 
-8. If you click on the Save button, go to the location where you saved the file and double-click on the .exe file. This will open the Installation Wizard.
+Double-click the downloaded file to launch the Installation Wizard, then:
 
-9. Click on the Install button.
+1. Click **Install**
+2. Click **Continue** — twice
+3. Once the package manager opens, find **`mingw32-gcc-g++`** and select **Mark for Installation**
+4. Also find **`mingw32-gcc-objc`** and mark it for installation too
+5. Go to **Installation** (top left) → **Apply Changes** → **Apply**
+6. Wait for it to finish, then click **Close**
 
-10. Then click on the Continue button.
+### Step 3 — Add MinGW to your PATH
 
-11. Again, click on the Continue button.
+The compiler is installed but Windows doesn't know where to find it yet. Here's how to fix that:
 
-12. Click on the "mingw32-gcc-g++ GNU C++ Compiler" checkbox and select "Mark for Installation".
+1. Search for **This PC** in the Windows search bar → right-click → **Properties**
+2. Click **Advanced System Settings** → **Environment Variables**
+3. Under **System Variables**, find and double-click **Path**
+4. Add a new entry with the path to your MinGW `bin` folder — usually:
+   ```
+   C:\MinGW\bin
+   ```
+5. Click **OK** on all windows to save
 
-13. Also check the option for "mingw32-gcc-objc The GNU Objective-C Compiler" and click on "Mark for Installation".
+### Step 4 — Verify the installation
 
-14. Click on the Installation option in the top left-hand corner.
+Open Command Prompt and run:
 
-15. Then click on the Apply Changes button.
+```bash
+gcc -v
+```
 
-16. Once again, click on the Apply button.
-
-17. Finally, click on the Close button. This will install gcc and g++ compilers on your system.
-
-18. Close the window.
-
-19. Next, we need to set the path for the System Variables.
-
-20. Right-click on My Computer or search for "This PC" in the Windows search bar.
-
-21. In Windows 10, right-click on "This PC".
-
-22. Click on Properties.
-
-23. Then click on the Advanced tab or Advanced System Settings.
-
-24. Click on Environment Variables.
-
-25. Under System Variables, select Path.
-
-26. Double-click on Path.
-
-27. This will open the Edit System Variable dialog box.
-
-28. In Variable value, type the location where the bin folder is present.
-
-29. Add a semicolon (;) before adding the path.  
-   Example: ;C:/MinGW/bin
-
-30. This will avoid overwriting previously set paths.
-
-31. Now, open the Command Prompt and type: gcc -v, then press Enter.
-
-32. This will display the version number of gcc installed.
-
-33. This shows that the installation is successfully done.
+If you see a version number printed — you're all set. ✅
 
 ---
 
+## Ubuntu / Linux
 
+This is the easiest setup of all. One command and you're done.
 
+> Make sure you're connected to the internet before starting.
 
-## 2. The procedure to install gcc and g++ compiler in Ubuntu Linux OS
+Open your terminal with `Ctrl + Alt + T` and run:
 
-1. To follow the installation procedure, you need to be connected to the internet.
+```bash
+sudo apt-get install gcc g++
+```
 
-2. To install the g++ compiler manually, open the terminal by pressing Alt + CTRL + T keys together.
+Enter your password when prompted, then type `Y` to confirm. The installation will take a minute or two.
 
-3. Type: sudo apt-get install g++
+Once it's done, verify with:
 
-4. It will prompt for a password.
+```bash
+gcc -v
+g++ -v
+```
 
-5. Type your password.
+If you see version info — you're good to go. ✅
 
-6. Disk space will be displayed, and you will be asked to confirm and proceed.
+**On other distros:**
 
-7. Confirm by typing "Y".
-
-8. The installation will take a few minutes.
-
-9. g++ will get installed.
-
-10. To check the installation, type: g++ -v
-
-11. The version of gcc / g++ will be displayed.
-
-12. This shows that the installation is successfully done.
-
----
-
-
-## 3. The procedure to install C and C++ in macOS
-
-1. Open Terminal.
-
-2. Type: xcode-select --install
-
-3. Press Enter.
-
-4. A dialog box will appear. Click on Install.
-
-5. Wait for the installation to complete.
-
-6. To verify installation, type: gcc --version
-
-7. The version will be displayed.
-
-8. This shows that the installation is successfully done.
+```bash
+sudo dnf install gcc gcc-c++     # Fedora
+sudo pacman -S gcc               # Arch
+```
 
 ---
 
-➡️ **Next:** [Your First Program](./YOUR_FIRST_PROGRAM.md)  
-❓ **FAQs:** [Click here](./FAQ.md)
+## macOS
 
+macOS makes this simple. Just run one command in your terminal and the system handles the rest.
 
+Open **Terminal** and run:
 
-   
+```bash
+xcode-select --install
+```
+
+A dialog box will pop up asking you to install the Command Line Tools — click **Install** and wait for it to finish.
+
+Once done, verify with:
+
+```bash
+gcc --version
+```
+
+If a version number shows up — you're ready. ✅
+
+> Note: macOS installs **Clang** under the `gcc` command, which works the same way for C and C++ programs. You don't need anything else.
+
+---
+
+## Android
+
+Android doesn't support installing GCC directly, but there are great apps that give you a full C/C++ compiler on your phone.
+
+👉 [Browse C/C++ compiler apps on Google Play](https://play.google.com/store/search?q=C%20compiler&c=apps)
+
+For our top picks with setup instructions, see the [Compiler Apps Guide](./COMPILER_APPS.md).
+
+---
+
+## Something not working?
+
+A few common issues:
+
+- **`gcc` not recognized on Windows** — your PATH wasn't set correctly, go back to Step 3
+- **Permission denied on Linux** — make sure you're using `sudo`
+- **Nothing happens on macOS** — wait a few minutes, the download runs in the background
+
+If you're still stuck, open an [Issue](../../issues) and we'll help you out.
+
+---
+
+➡️ **Next:** [Your First C Program](./YOUR_FIRST_PROGRAM.md)
+❓ **FAQs:** [FAQ](./FAQ.md)
