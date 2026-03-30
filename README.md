@@ -16,7 +16,7 @@ Each chapter includes both theory and examples, so you're never just reading —
 
 | # | Chapter |
 |---|---|
-| 01 | [Introduction to C Programming Language](./Intro/Introduction.md) |
+| 01 | [Introduction to C Programming Language](./Intro/INTRODUCTION.md) |
 | 02 | [Installing Compiler & Running Program](./Intro/Intro/COMPILER_INSTALLATION.md) |
 | 03 | [ Your First C Program ](./Intro/YOUR_FIRST_PROGRAM.md) |
 
