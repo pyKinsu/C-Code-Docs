@@ -1,27 +1,25 @@
 # C-Code-Docs
 
-**A guide docs to the C programming language.**
+**A beginner-friendly guide to the C programming language.**
 
-Here, we will go through an overview of this repository.  
-This repository is dedicated to the **C programming language**.
-
-You will find various types of examples and theoretical concepts, starting from the basics.  
-We begin with fundamental topics such as how C was invented, why it is important, and why we should learn it.
-
-## What is this?
-
-We start from why C even exists and work our way up to writing real programs that you actually understand.  
+This repository covers C from the basics to practical programs, including both theory and examples.  
+It starts with fundamental concepts like the origin and importance of C, and gradually builds up to writing real programs.
 Each chapter includes both theory and examples, so you're never just reading — you're writing and running code too.
 
 ---
 
 ## Chapters
 
+> [!IMPORTANT]
+> I will Add more Chapters soon. Star ⭐ the repo to get notified when new ones are added.
+
+
 | # | Chapter |
 |---|---|
 | 01 | [Introduction to C Programming Language](./Intro/Introduction.md) |
+| 02 | [Installing Compiler & Running Program](./Intro/Intro/COMPILER_INSTALLATION.md) |
+| 03 | [ Your First C Program ](./Intro/YOUR_FIRST_PROGRAM.md) |
 
-Chapters are released gradually. Star ⭐ the repo to get notified when new ones are added.
 
 ---
 
@@ -47,5 +45,3 @@ Have a question or just want to say hi?
 Built and maintained by [Kinsu Rajput](https://github.com/pykinsu).
 
 Want to see your name here? Start contributing! 🙌
-
----
