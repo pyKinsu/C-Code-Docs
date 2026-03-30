@@ -1,10 +1,15 @@
 # Setting Up Your C Compiler
 
-Before you write any code, you need a compiler — a tool that takes your `.c` file and turns it into a program your computer can actually run. This guide covers every major platform so you can get started regardless of what device you're on.
+> [!NOTE]
+> Before you write any code, you need a compiler — a tool that takes your `.c` file and turns it into a program your computer can actually run.
+> For Installing/ Setting Up Compiler [Check Here](./COMPILER_INSTALLATION.md)
+
+
+This guide covers every major platform so you can get started regardless of what device you're on.
 
 **Jump to your platform:**
 
-[ Windows](#windows) · [ Linux](#linux) · [macOS](#macos) · [Android](#android)  · [Online](#online-compilers--works-everywhere)
+[ Windows](#windows) · [ Linux](#linux) · [macOS](#macos) · [Android](#android) 
 
 ---
 
