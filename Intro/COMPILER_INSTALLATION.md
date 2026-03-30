@@ -2,11 +2,17 @@
 
 This guide walks you through installing the GCC and G++ compilers on your system. Pick your operating system and follow the steps — it should take less than 10 minutes.
 
+> [!NOTE]
+> For running C Programming Language you need compiler and compiler app like (VS code , CodeBlock) this section is only about installing compiler and for app chcek below
+> [!TIP]
+>  Looking for a full IDE or editor instead? Check out the [Compiler Apps Guide](./COMPILER_APPS.md).
+
 **Jump to your OS:**
 
 [ Windows](#windows) · [ Ubuntu / Linux](#ubuntu--linux) · [ macOS](#macos) · [ Android](#android)
 
-> Looking for a full IDE or editor instead? Check out the [Compiler Apps Guide](./COMPILER_APPS.md).
+> [!TIP]
+>  Looking for a full IDE or editor instead? Check out the [Compiler Apps Guide](./COMPILER_APPS.md).
 
 ---
 
@@ -112,7 +118,8 @@ gcc --version
 
 If a version number shows up — you're ready. ✅
 
-> Note: macOS installs **Clang** under the `gcc` command, which works the same way for C and C++ programs. You don't need anything else.
+> [!TIP]
+>  macOS installs **Clang** under the `gcc` command, which works the same way for C and C++ programs. You don't need anything else.
 
 ---
 
@@ -126,13 +133,11 @@ For our top picks with setup instructions, see the [Compiler Apps Guide](./COMPI
 
 ---
 
-## Something not working?
-
-A few common issues:
-
-- **`gcc` not recognized on Windows** — your PATH wasn't set correctly, go back to Step 3
-- **Permission denied on Linux** — make sure you're using `sudo`
-- **Nothing happens on macOS** — wait a few minutes, the download runs in the background
+> [!TIP]
+> A few common issues:
+>- **`gcc` not recognized on Windows** — your PATH wasn't set correctly, go back to Step 3
+>- **Permission denied on Linux** — make sure you're using `sudo`
+>- **Nothing happens on macOS** — wait a few minutes, the download runs in the background
 
 If you're still stuck, open an [Issue](../../issues) and we'll help you out.
 
