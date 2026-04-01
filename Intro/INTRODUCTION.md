@@ -64,6 +64,6 @@ Learning C means learning the foundation of modern programming.
 
 ---
 
- - **Next:** [Compiler Setup](./Intro/COMPILER_INSTALLATION.md)
- -  [Installing Compiler Apps ](./Intro/COMPILER_APPS.md)
+ - **Next:** [Compiler Setup](./COMPILER_INSTALLATION.md)
+ -  [Installing Compiler Apps ](./COMPILER_APPS.md)
  -  **Have questions?** See the [FAQ](./FAQ.md)
