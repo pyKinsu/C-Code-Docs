@@ -143,5 +143,5 @@ If you're still stuck, open an [Issue](../../issues) and we'll help you out.
 
 ---
 
-➡️ **Next:** [Your First C Program](./YOUR_FIRST_PROGRAM.md)
-❓ **FAQs:** [FAQ](./FAQ.md)
+- **Next:** [Your First C Program](./YOUR_FIRST_PROGRAM.md)
+-  **FAQs:** [FAQ](./FAQ.md)
