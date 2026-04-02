@@ -15,7 +15,7 @@ This repository covers C from the basics to practical programs,Each chapter incl
 | 01 | [Introduction to C Programming Language](./Intro/INTRODUCTION.md) |
 | 02 | [Installing Compiler & Running Program](./Intro/COMPILER_INSTALLATION.md) |
 | 03 | [ Your First C Program ](./Intro/YOUR_FIRST_PROGRAM.md) |
-| 04 | [ Basics Structure Of C ](.Intro/BASIC_SYNTAX.md) |
+| 04 | [ Basics Structure Of C ](./Intro/BASIC_SYNTAX.md) |
 
 ---
 
